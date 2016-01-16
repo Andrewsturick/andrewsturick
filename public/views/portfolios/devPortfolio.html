@@ -1,0 +1,21 @@
+
+
+<div class="dev-portfolio-directive">
+  <div class="projectOnDisplay">
+    <h1 class="pieceTitleDisplay">{{isShowing.name}}</h1>
+    <h3 id="project-summary-display">{{isShowing.summary}}</h3>
+    <div class="button-wrapper">
+      <div id="githubSrc">Source</div>
+      <div id="linkSrc">Link</div>
+    </div>
+  </div>
+  <div id="project-list">
+    <div class="name-container" ng-click="showThisPiece(piece.objRef)" ng-repeat="piece in portfolioContents">
+      <br><br><br><br>
+      <div class="name-of-piece">{{piece.name}}</div>
+      <div class="date-of-piece">{{piece.date}}</div>
+
+    </div>
+
+  </div>
+</div>

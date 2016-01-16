@@ -1,0 +1,111 @@
+
+.blog-title-header{
+  text-align: center;
+  margin-left:40vh;
+  font-size: 10vh;
+}
+
+.myPicture{
+  margin-top: 5%;
+  margin-left: 30%;
+  position: absolute;
+  height:25vh;
+  width: 25vh;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+.blog-page-title{
+  margin-left: 25vh;
+  font-size: 10vh;
+}
+
+.blogIntro{
+  margin-left: 25vh;
+  width: 40vh;
+  position: relative;
+}
+.blog-show-content-container{
+  height: 70vh;
+  width:70vw;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.hero-unit{
+  height: 40vh;
+  width:100vw;
+  background-color: black;
+  margin-top: -10vh;
+
+  text-align: center;
+
+}
+.container-fluid{
+  padding-left: 0px;
+}
+
+.main-content-blog-index{
+  height: 70vh;
+  background-color: white;
+  color:black;
+  font-size: 10vh;
+}
+.right-person-intro-content-background{
+  position: absolute;
+  height: 70vh;
+  background-color: black;
+  margin-left: 58.3vw;
+  opacity: .6;
+
+}
+.blog-title{
+  font-size: 10vh;
+  padding-top: 15vh;
+}
+.blog-second-heading{
+  margin-top: -2vh;
+  font-size:3vh;
+}
+.line-above-picture{
+  width: 75%;
+}
+.side-quote{
+  margin-top: 10vh;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.blog-index-container-for-cards{
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.blog-index-title{
+  text-align: center;
+}
+
+.blog-index-card{
+  min-height: 20vh;
+}
+.blog-index-card:hover{
+  border: 1px solid #cccccc;
+}
+.blog-post-index-title{
+  font-size: 5vh;
+  text-align: center;
+}
+.blog-post-description-index{
+  font-size: 3vh;
+  text-align: center;
+}
+.blog-post-index-date{
+  text-align: center;
+  font-size: 2vh;
+}
+.social-media-holder:hover{
+  border: 1px solid white;
+}
+.above-picture-title{
+  text-align: center;
+}
+.by-andrew-sturick{
+  color:white;
+}

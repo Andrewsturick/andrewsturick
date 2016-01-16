@@ -1,0 +1,49 @@
+<div class="social-media-holder">
+  <span ng-repeat="icon in socialLinks">
+    <i ng-class="icon.classes"></i>
+  </span>
+</div>
+
+
+
+
+<!-- ///left column -->
+<div id="left-content"class="col-sm-3">
+  <div class="margin-top-half ">
+    <div ui-sref="blog.index" class="blog-link-wrapper-homepage">
+      <h1 class="arrow-label"  id="arrow-label-left">{{homeArrows.leftArrow.title}}</h1>
+      <br>
+      <i class="arrow-nav" ng-class="homeArrows.leftArrow.arrowClasses"></i>
+    </div>
+  </div>
+</div>
+
+<div id="main-content"class="col-sm-6 ">
+  <div id="my-introduction">
+    <h1>{{myName}}</h1>
+    <h2>{{jobTitle}}</h1>
+  </div>
+</div>
+
+
+<!-- ////right column -->
+<div id="right-content"class="col-sm-3">
+  <div class="margin-top-half pull-right ">
+      <div id="right-arrow-encapsulator">
+        <br>
+        <h1 class="arrow-label" id="arrow-label-right">{{homeArrows.rightArrow.title}}</h1>
+        <i class="arrow-nav" ng-class="homeArrows.rightArrow.arrowClasses"></i>
+    </div>
+  </div>
+</div>
+
+
+<!-- ///bottom arrow and content -->
+<div id="bottom-content" class="col-sm-12">
+    <div ui-sref="portfolios"class="link-wrapper">
+      <h1 class="arrow-label">{{homeArrows.downArrow.title}}</h1>
+      <br>
+      <i class="arrow-nav" ng-class="homeArrows.downArrow.arrowClasses"></i>
+    </div>
+  </div>
+</div>

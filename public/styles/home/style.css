@@ -1,0 +1,48 @@
+#main-content{
+  min-height: 70vh;
+}
+
+
+
+#my-introduction{
+  margin-top:30vh;
+  text-align: center;
+}
+
+#my-introduction h1{
+  font-size: 8em;
+}
+
+.margin-top-half{
+  margin-top:30vh;
+}
+
+
+/*control nav arrows*/
+.arrow-nav{
+  font-size: 11em;
+  color: #cccccc;
+}
+.arrow-nav:hover{
+  color:white;
+}
+
+
+.arrow-label{
+  font-size: 2em;
+  font-family: simplifica;
+}
+#arrow-label-left{
+  margin-left:6vh;
+}
+#arrow-label-right{
+  position:relative;
+  margin-top:-3.0vh;
+  margin-bottom:4.5vh;
+}
+#right-arrow-encapsulator{
+  margin-bottom:5vh;
+}
+#bottom-content{
+  text-align: center;
+}

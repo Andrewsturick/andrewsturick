@@ -1,0 +1,27 @@
+
+
+<div class="social-media-holder">
+  <span ng-repeat="icon in socialLinks">
+    <i ng-class="icon.classes"></i>
+  </span>
+</div>
+
+<div id="financialPortfolioDiv" ng-if="financialPortfolioIsShowing()">hello!!!</div>
+<div ui-view></div>
+
+<div id="portfolios-container">
+  <div class="col-sm-6">
+    <div  ng-mouseenter="makeWhite($event)" ng-mouseleave="makeClear($event)"class="portfolio-financial pull-right">
+      <div  ng-if="financialTextIsShowing()"id="portfolio-financial-title">{{arrowNavs.financial.title}}</div>
+      <!-- <div   ng-if="financialTextIsShowing()==false" id="portfolio-financial-title">{{arrowNavs.development.title}}</div> -->
+      <i id="portfolio-financial-nav" ng-click="handleFlipEvent($event, arrowNavs.financial.title)"ng-if="financialArrowIsShowing()" ng-click="handleFlipEvent(arrowNavs.financial.title)" ng-class="arrowNavs.financial.arrowClasses"></i>
+
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div ng-mouseleave="makeClear($event)"ng-mouseenter="makeWhite($event)"class="portfolio-development pull-left">
+      <i ng-click="handleFlipEvent($event, arrowNavs.development.title)" class="nav-arrow" id="portfolio-development-nav" ng-class="arrowNavs.development.arrowClasses"></i>
+      <div  ng-if="developmentTextIsShowing()" id="portfolio-development-title">{{leftDivIsDevelopment()}}</div>
+    </div>
+  </div>
+</div>

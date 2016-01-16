@@ -1,0 +1,26 @@
+{
+  "name": "andrew-sturick",
+  "description": "",
+  "main": "server.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "font-awesome": "~4.5.0",
+    "angular-strap": "~2.3.6",
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.0",
+    "ngAnimate": "*",
+    "angular-markdown-directive": "~0.3.1"
+  }
+}

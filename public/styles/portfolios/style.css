@@ -1,0 +1,240 @@
+.portfolio-financial{
+  position: relative;
+  margin-top:45vh;
+}
+
+.portfolio-financial:hover #arrow-nav{
+color:yellow;
+
+}
+
+#portfolio-financial-nav{
+  color: #cccccc;
+  font-size: 13em;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+}
+
+.slide-financial-right{
+  -webkit-transform:translateX(112vh);
+  color: white;
+}
+
+#portfolio-financial-nav:hover{
+  color:white;
+
+}
+
+ #portfolio-financial-title{
+   position:relative;
+   font-size: 3em;
+   display:inline-block;
+   right: 7vh;
+   top:-9vh;
+ }
+
+ #portfolio-financial-title:hover{
+   color: white;
+   font-size: 3.5em;
+ }
+
+.portfolio-development{
+
+  position: relative;
+  margin-right: 10vh;
+  margin-top:45vh;
+}
+
+#portfolio-development-nav:hover{
+  color: white;
+  display: inline-block
+}
+
+#portfolio-development-nav{
+  color: #cccccc;
+  font-size: 13em;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+}
+.slideDevelopmentLeft{
+  -webkit-transform:translateX(12vh);
+  color: white;
+}
+.slideDevelopmentDown{
+  -webkit-transform:translateY(10vh);
+
+}
+
+.anim-right{
+-webkit-transform:rotateY(180deg);
+}
+
+.anim-left{
+  -webkit-transform:rotateY(-180deg);
+}
+#financialPortfolioDiv{
+  position:absolute;
+  font-size: 3em;
+  min-height: 20vh;
+  min-width: 40vh;
+  top:10vh;
+  left:20vw;
+  background-color: black;
+  opacity: .6;
+}
+
+#portfolio-development-title{
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  color: white;
+
+  position:relative;
+  font-size: 3em;
+  display: inline-block;
+  top: -9vh;
+  right: -7vh;
+}
+#portfolio-development-title:hover{
+  color: white;
+  font-size: 3.5em;
+}
+.nav-arrow-black{
+  position:absolute;
+  top:49vh;
+  left: 64vh;
+  color: black;
+  font-size: 13em;
+}
+
+#development-portfolio-black-arrow-icon{
+  color:black;
+  top:60vh;
+}
+#development-portfolio-black-holder{
+  min-height:60vh;
+  top:60vh;
+}
+#options-greeks{
+  top:3vh;
+  color:black;
+}
+.npm-headline{
+  font-size: 4em;
+  text-align: center;
+}
+.npm-explanation{
+  margin-top: -2px;
+  text-align: center;
+}
+#online-portfolio{
+  color: black;
+}
+.options{
+  position: absolute;
+  margin-bottom: 5vh;
+  margin-right: 3vh;
+  left: 20vh;
+  max-height: 12vh;
+  width: 52vh;
+  background-color: #333333;
+  color: #6DC3A8;
+  font-size: 8em;
+  text-align: center;
+}
+.demo-list-divider{
+  margin-top: 35vh;
+  margin-left: 5vw;
+  width: 85%;
+  color:#DDDDDD;
+}
+.development-portfolio-title-unique{
+  color: black;
+  position: absolute;
+  font-size: 3em;
+  top: 50vh;
+}
+#dev-label{
+  color:black;
+  position:absolute;
+  margin-top: 27.75vh;
+  margin-left: 35vh;
+  font-size: 3em;
+}
+
+.dev-portfolio-directive{
+  padding-left: 50px;
+  margin-left: 10vh;
+
+
+
+}
+/*.development-portfolio-table{
+  margin-left: 5vh;
+  width: 40vh;
+  height: 8vh;
+  margin-left:15vh;
+  overflow: hidden;
+}*/
+.name-container{
+  min-height: 10vh;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+}
+.name-container:hover{
+  border:1px solid #cccccc;
+}
+.date-of-piece{
+  color:#bbb
+}
+.name-of-piece{
+  margin-top: -5vh;
+  font-size: 2em;
+}
+.pieceTitleDisplay{
+  font-size: 5em;
+  margin-bottom: 0;
+
+};
+.projectOnDisplay{
+  border: 1px solid red;
+  min-height: 40vh;
+  margin-bottom: 10vh;
+}
+#linkSrc, #githubSrc{
+  display: inline-block;
+  min-height: 6vh;
+  width: 12vh;
+  border:1px solid black;
+  text-align: center;
+  padding-top: 1.3vh;
+  margin-left: 2vh;
+}
+#linkSrc:hover, #githubSrc:hover{
+  background-color: black;
+  color:white;
+  border:1px solid black;
+}
+
+#project-summary-display{
+  margin-top: 0;
+}
+#project-list{
+  overflow: scroll;
+  margin-top: 10vh;
+  height: 50vh;
+  width: 60vh;
+}
+#financial-portfolio-wrapper{
+  color: black;
+}
+.of{
+  font-family: arial;
+  position: absolute;
+  margin-top:35vh;
+  margin-left: 20vh;
+  font-size:5em
+}
+.name-header-devportfolio{
+  position: absolute;
+  margin-top: 50vh;
+  margin-left: 20vh;
+  font-size: 5em;
+}

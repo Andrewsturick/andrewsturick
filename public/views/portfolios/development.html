@@ -1,0 +1,31 @@
+<div class="social-media-holder">
+  <span ng-repeat="icon in socialLinks">
+    <i ng-class="icon.classes"></i>
+  </span>
+</div>
+<div "development-portfolio-black-holder">
+    <i ng-click="handleFlipEvent($event, arrowNavs.development.title)" class="nav-arrow-black"  ng-class="arrowNavs.development.arrowClasses"></i>
+    <div id="development-portfolio-black-arrow-icon">
+
+    <!-- <div class="development-portfolio-title-unique" id="portfolio-development-title">development</div> -->
+    </div>
+</div>
+
+<div id="options-greeks" class="col-sm-6">
+  <h1 class="npm-headline">CHECK OUT THIS SWEET NEW
+    <br> NPM PACKAGE I MADE!</h1>
+  <h3 class="npm-explanation">It turns basic options data worth hundreds into sophisticated market data worth thousands!</h3>
+  <div class="options">OPTIONS.JS</div>
+  <div id="dev-label">development
+                  <br>
+                      portfolio</div>
+
+      <div class="of">of</div>
+      <h1 class="name-header-devportfolio">ANDREW STURICK</h1>
+
+
+</div>
+
+<div id="online-portfolio" class="col-sm-6">
+<dev-portfolio class="dev-portfolio-directive"></dev-portfolio>
+</div>

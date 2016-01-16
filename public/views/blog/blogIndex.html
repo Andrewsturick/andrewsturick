@@ -1,0 +1,97 @@
+
+<div class="social-media-holder">
+  <span ng-repeat="icon in socialLinks">
+    <i ng-class="icon.classes"></i>
+  </span>
+</div>
+
+<!-- <div class="container-fluid col-sm-12"> -->
+  <div class="hero-unit">
+    <div class="by-andrew-sturick">Blogs@andrew.sturick</div>
+    <h1 class="blog-title">{{blogPage.title}}</h1>
+    <div class="blog-second-heading">{{blogPage.blogIntro}}</div>
+  </div>
+<!-- </div> -->
+
+
+<div class="col-sm-7 main-content-blog-index">
+    <div class="blog-index-title">{{blogPage.blogIndexTitle}}</div>
+   <hr>
+   <div class="blog-index-container-for-cards">
+     <div class="blog-index-card"
+       ng-repeat="blog in blogs"
+       ui-sref="blog.show({blogId: blog.id})">
+          <div class="blog-post-index-title">{{blog.title}}</div>
+          <div class="blog-post-description-index">{{blog.description}}</div>
+          <div class="blog-post-index-date">{{blog.date}}</div>
+     </div>
+   </div>
+</div>
+<div class="col-sm-5 right-person-intro-content-background">
+
+</div>
+
+
+<div class="col-sm-5 ">
+<div class="side-quote">{{blogPage.blogSideQuote}}</div>
+<hr class="line-above-picture">
+  <img src="views/blog/me.jpg" alt="" class="myPicture">
+  <div class="above-picture-title">Andrew Sturick</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6" id="opaque-background-for-blog-list">
+
+</div> -->
+
+
+
+
+
+
+
+<!-- <h1 class="blog-title-header pull-left col-sm-6">BlOGS</h1>
+<div id="blog-list-holder" class="col-sm-6">
+
+  <div  class="blog-topic-card"
+        ng-repeat="blog in blogs track by $index"
+        ui-sref="blog.show({blogId: blog.id})">
+                          >
+      <h3 class="blog-title">{{blog.title}}</h3>
+      <h5 class="blog-description">{{blog.description}}</h5>
+      <h6 class="blog-date">{{blog.date}}</h6>
+
+    <!<btf-markdown ng-include="blog.link">
+
+    </btf-markdown> -->
+<!--
+  </div>
+</div>
+
+
+<div class="right-col-blog-page col-sm-6 col-sm-offset-6">
+  <h1 class="blog-page-title" >{{blogPage.title}}</h1>
+  <h2 class="blogIntro">{{blogPage.blogIntro}}</h2>
+  <img src="views/blog/me.jpg" class="myPicture" alt="">
+</div> -->
